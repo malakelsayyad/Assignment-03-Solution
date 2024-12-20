@@ -557,29 +557,26 @@ namespace Assignment_03
 
             #region Q19
 
-            Console.WriteLine("Enter the size of the array : ");
-            if (int.TryParse(Console.ReadLine(),out int Size))
-            {
-                int[] Numbers = new int[Size];
-                for (int i = 0; i < Numbers.Length; i++)
-                {
-                    Console.WriteLine($"enter number {i+1} : ");
-                    Numbers[i]=int.Parse(Console.ReadLine());
-                }
-                Console.WriteLine("The reversed array is");
+            //Console.WriteLine("Enter the size of the array : ");
+            //if (int.TryParse(Console.ReadLine(),out int Size))
+            //{
+            //    int[] Numbers = new int[Size];
+            //    for (int i = 0; i < Numbers.Length; i++)
+            //    {
+            //        Console.WriteLine($"enter number {i+1} : ");
+            //        Numbers[i]=int.Parse(Console.ReadLine());
+            //    }
+            //    Console.WriteLine("The reversed array is");
 
-                for (int i = Numbers.Length-1; i >=0;  i--)
-                {   
-                    Console.WriteLine(Numbers[i]+" ");
-                }
-            }
-            else
-            {
-                Console.WriteLine("Invalid input");
-            }
-
-           
-
+            //    for (int i = Numbers.Length-1; i >=0;  i--)
+            //    {   
+            //        Console.WriteLine(Numbers[i]+" ");
+            //    }
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Invalid input");
+            //}
 
             #endregion
         }
